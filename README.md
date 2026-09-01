@@ -186,3 +186,7 @@ The GitHub Actions workflow runs the same checks on every push and pull request.
   controlled performance lab.
 - Random graph generation creates synthetic edge weights; it does not model real
   traffic, driver availability or time windows.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
