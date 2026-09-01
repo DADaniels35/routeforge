@@ -1,0 +1,7 @@
+{
+  "source": "warehouse_a",
+  "destination": "customer_17",
+  "optimise_for": "cost",
+  "algorithm": "dijkstra_heap"
+}
+
