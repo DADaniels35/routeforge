@@ -186,25 +186,3 @@ The GitHub Actions workflow runs the same checks on every push and pull request.
   controlled performance lab.
 - Random graph generation creates synthetic edge weights; it does not model real
   traffic, driver availability or time windows.
-
-## CV Positioning
-
-**RouteForge: FastAPI route optimisation service for weighted logistics networks**
-
-- Built a Python/FastAPI route optimisation API using custom graph data
-  structures and Dijkstra, BFS and DFS implementations.
-- Designed REST endpoints for persisted graph creation, route calculation,
-  traversal, random graph generation and benchmarking.
-- Added automated testing with `pytest`, linting with `ruff`, Docker support and
-  GitHub Actions CI.
-- Implemented benchmarking to compare array-based and heap-based Dijkstra
-  performance, with optional NetworkX validation.
-- Documented architecture, API workflow, algorithm complexity, project
-  limitations and a small dashboard demo.
-
-Short CV version:
-
-> Built RouteForge, a FastAPI route optimisation API using custom weighted graph
-> data structures, BFS, DFS and Dijkstra implementations, with SQLite
-> persistence, benchmarking, Docker support, automated tests and GitHub Actions
-> CI.
