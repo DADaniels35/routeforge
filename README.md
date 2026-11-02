@@ -49,7 +49,6 @@ app/
   schemas/      Pydantic request and response models
   storage/      SQLite persistence layer
 dashboard/      Small browser UI served by FastAPI
-docs/           Architecture documentation
 sample_data/    Example API payloads
 tests/          Algorithm and API tests
 ```
